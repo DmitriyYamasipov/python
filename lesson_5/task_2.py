@@ -12,10 +12,8 @@
 number_x = int(input('Введите икс: '))
 if number_x > 0:
     number_y = number_x - 12
-    print('Игрек равен: ', number_y)
 elif number_x == 0:
     number_y = 5
-    print('Игрек равен: ', number_y)
 else:
     number_y = number_x ** 2
-    print('Игрек равен: ', number_y)
+print('Игрек равен: ', number_y)

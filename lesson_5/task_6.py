@@ -19,7 +19,7 @@ print('Задача 6. Новоселье')
 
 kvartira_s = int(input('Введите площадь квартиры: '))
 kvartira_summ = int(input('Введите стоимость квартиры: '))
-if kvartira_s >= 100 and kvartira_summ <10000000 or kvartira_s > 80 and kvartira_summ < 7000000:
+if kvartira_s >= 100 and kvartira_summ <= 10000000 or kvartira_s >= 80 and kvartira_summ <= 7000000:
     print('Квартира Нам подходит!! Берём!')
 else:
     print('Квартира не подходит. Ещё поищем!')

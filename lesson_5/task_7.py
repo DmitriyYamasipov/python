@@ -22,14 +22,14 @@ print('Задача 7. Почта')
 
 # 1 вариант:
 time_vizit = int(input('Во сколько хотите забрать посылку? '))
-if (time_vizit >= 8) and (time_vizit < 10) or (time_vizit > 12) and (time_vizit < 14) or (time_vizit > 15) and (time_vizit < 18) or (time_vizit >= 20) and (time_vizit <= 22):
+if (time_vizit >= 8) and (time_vizit < 10) or (time_vizit >= 11) and (time_vizit < 14) or (time_vizit > 15) and (time_vizit < 18) or (time_vizit >= 19) and (time_vizit <= 22):
     print('Можно получить посылку')
 else:
     print('Посылку получить нельзя')
 
 # 2 вариант
 time_vizit = int(input('Во сколько хотите забрать посылку? '))
-if not((time_vizit >= 8) and (time_vizit < 10) or (time_vizit > 12) and (time_vizit < 14) or (time_vizit > 15) and (time_vizit < 18) or (time_vizit >= 20) and (time_vizit <= 22)):
+if not((time_vizit >= 8) and (time_vizit < 10) or (time_vizit >= 11) and (time_vizit < 14) or (time_vizit > 15) and (time_vizit < 18) or (time_vizit >= 19) and (time_vizit <= 22)):
     print('Посылку получить нельзя')
 else:
     print('Можно получить посылку')

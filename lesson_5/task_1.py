@@ -9,12 +9,8 @@ score_user = int(input('Введите количество опыта: '))
 level_user = 4
 if score_user < 1000:
     level_user = 1
-    print('Ваш уровень:' , level_user)
 elif score_user < 2500:
     level_user = 2
-    print('Ваш уровень:' , level_user)
 elif score_user < 5000:
     level_user = 3
-    print('Ваш уровень:' , level_user)
-else:
-    print('Ваш уровень:' , level_user)
+print('Ваш уровень:' , level_user)
