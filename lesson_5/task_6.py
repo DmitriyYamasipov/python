@@ -23,3 +23,4 @@ if kvartira_s >= 100 and kvartira_summ <= 10000000 or kvartira_s >= 80 and kvart
     print('Квартира Нам подходит!! Берём!')
 else:
     print('Квартира не подходит. Ещё поищем!')
+    
